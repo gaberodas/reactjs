@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './components/car.js'
 
 function App() {
+
   return (
     <div className='App'>
-      <h1>Hello World</h1>
+      <Car />
     </div>
   );
 }
